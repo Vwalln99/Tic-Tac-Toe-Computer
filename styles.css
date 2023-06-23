@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #FB9C2A;
+  background-color: #137DC5;
+  padding: 20px;
+  min-width: 410px;
+}
+
+.mid-title {
+  color: #fdcf00;
+  font-size: larger;
+}
+
+html {
+  background-color: #7e7b79;
+}
+
+h5 {
+  text-align: center;
+  text-decoration: underline;
+  margin:40px 0px 20px 0px;
+  padding: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  box-shadow: 5px 5px #0d4f7a;
+  margin-bottom: 30px;
+}
+
+.cell {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  color: white;
+  font-size: 50px;
+  border-top: 0.5px solid white;
+  border-right: 0.5px solid white;
+  background-color: #137DC5;
+}
+.cell:nth-child(3), .cell:nth-child(6), .cell:nth-child(9){
+  border-right:none;
+}
+
+.cell:nth-child(1), .cell:nth-child(2), .cell:nth-child(3){
+  border-top:none;
+}
+
+.hidden {
+  display: none;
+}
+
+.player-info,
+.game-status {
+  width: 80%;
+  text-align: center;
+}
+
+.container1 {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 275px;
+  height: min-content;
+}
+
+.player-info {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.form-group1 {
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 20px;
+  background-color: #F5793B;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 5px 5px #d85716;
+}
+
+.game-status {
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.player-info {
+  background-color: #137DC5;
+  border-radius: 10px;
+  box-shadow: 5px 5px #0d4f7a;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #8cabc0;
+  font-size: 13px;
+  color: white;
+}
