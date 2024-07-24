@@ -22,3 +22,4 @@ Mit Strategie zum Sieg, viel Spaß beim Spielen!
 - HTML
 - CSS
 - JavaScript
+# playable at https://vwalln99.github.io/Tic-Tac-Toe-Computer/
